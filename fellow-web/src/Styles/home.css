@@ -1,0 +1,63 @@
+.Home {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Components/images/worship.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  .fellow {
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .images img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .fellow {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .images img {
+      width: 100px;
+    }
+  
+    h3 {
+      font-size: 1.2em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .fellow {
+      width: 95%;
+      padding: 10px;
+    }
+  
+    .images img {
+      width: 80px;
+    }
+  
+    h3 {
+      font-size: 1em;
+    }
+  
+    p {
+      font-size: 0.9em;
+    }
+  }
+  

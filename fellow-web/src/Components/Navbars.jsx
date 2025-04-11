@@ -10,6 +10,7 @@ function Navbars() {
             <h1 className='left-side'><span>JIT</span> fellowship</h1>
             </div>
 <div className='right-side'>
+    <a href="/">Home</a>
     <a href="programs">Programs</a>
     <a href="event">Events</a>
     <a href="teams">Teams</a>
