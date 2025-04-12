@@ -1,13 +1,18 @@
 import React from 'react'
 import '../Styles/navbar.css'
-
+import bible from './images/bible.png'
 
 function Navbars() {
   return (
     <div className='navbar-nav sm-40px'>
         <div className='navbar'>
-        <div className="head">
-            <h1 className='left-side'><span>JIT</span> fellowship</h1>
+          <div className='logo'> 
+          <div className="head">
+            <div className='logo-container'>
+          <img src={bible} alt=" "/> 
+        <h1 className='left-side'><span>JIT</span> fellowship</h1>
+            </div>
+            </div>
             </div>
 <div className='right-side'>
     <a href="/">Home</a>

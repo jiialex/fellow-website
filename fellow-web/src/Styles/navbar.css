@@ -1,9 +1,25 @@
-.navbar-nav{
-    background-color: gray;
+.navbar{
+    background-color: rgb(123, 119, 119);
 }
+
+.logo-container {
+    display: flex; 
+    align-items: center; 
+    gap: 5px; 
+}
+
+.logo-container img {
+    width: 40px;
+    height: 30px;
+}
+
+.fellowship-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .left-side{
-    margin-left: 15px;
-    margin-top:5px;
+    margin-left: 45px;
     font-size:20px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;

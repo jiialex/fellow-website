@@ -1,0 +1,117 @@
+.team {
+    background-image: url('../Components/images/team.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100vw; 
+    height: 100vh; 
+}
+.team h1{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    font-size:30px;
+    font-weight:bold;
+    margin:10px;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team h6{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.list-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 40px;
+    padding: 10px;
+}
+.list.left h4{
+    align-items: center;
+font-size:26px;
+font-weight:bold;
+color:green;
+font-family: Arial, Helvetica, sans-serif;
+margin-left:150px;
+}
+.list.left ul{
+    text-decoration: none;
+    padding:10px;
+    font-size:28px;
+    margin-left:150px;
+}
+.list .left ul a{
+    font-size:23px;
+    padding:10px;
+    align-items:center;
+    margin-left:150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list .left ul a:hover{
+    color:greenyellow;
+}
+.list.right h4 {
+    color:green;
+    text-align: right;
+    font-weight:bold;
+    margin-right:150px;
+}
+
+.list ul {
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin-right:100px;
+    font-size:25px;
+}
+
+.list li {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.list a {
+    text-decoration: none;
+    color: rgb(0, 4, 34);
+    
+}
+.list a:hover{
+    color:greenyellow;
+}
+@media (max-width: 768px) { 
+    .team h1, .team h6 {
+        font-size: 20px; 
+        text-align: center; 
+        padding: 5px;
+    }
+
+    .list-container {
+        flex-direction: column;
+        align-items: center; 
+        gap: 20px; 
+
+    .list.left h4, .list.left ul, .list .left ul a {
+        margin-left: 20px; 
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .list.right h4 {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .list ul {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .list a {
+        font-size: 16px;
+    }
+}
+}

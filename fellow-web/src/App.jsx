@@ -3,6 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbars from './Components/Navbars'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Home';
+import Programs from './Components/Programs';
+import Events from './Components/Events.jsx'
+import Teams from './Components/Team.jsx'
 
 function App() {
   return (
@@ -11,6 +14,10 @@ function App() {
     <Navbars />
       <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="programs" element={<Programs />} />
+      <Route path="event" element={<Events />} />
+      <Route path="teams" element={<Teams />} />
+
       </Routes>
       </BrowserRouter>
     </>
