@@ -6,12 +6,11 @@ function Navbars() {
   return (
     <div className='navbar-nav sm-40px'>
         <div className='navbar'>
-          <div className='logo'> 
+        
           <div className="head">
             <div className='logo-container'>
           <img src={bible} alt=" "/> 
         <h1 className='left-side'><span>JIT</span> fellowship</h1>
-            </div>
             </div>
             </div>
 <div className='right-side'>
@@ -20,10 +19,11 @@ function Navbars() {
     <a href="event">Events</a>
     <a href="teams">Teams</a>
     <a href="join">Join</a>
-    <a href="services">Services</a>
+  
 </div>
         </div>
         </div>
+     
 
   )
 }

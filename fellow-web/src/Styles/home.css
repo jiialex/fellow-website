@@ -18,9 +18,12 @@
   }
   
   .images img {
-    width: 150px;
+    width: 100px;
     height: auto;
-    margin: 10px;
+    margin-left: 200px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
   }
   
   @media screen and (max-width: 768px) {
