@@ -31,12 +31,10 @@ function Navbar() {
         </h1>
       </div>
 
-      {/* Menu Icon for Mobile Screens */}
       <button className="menu-icon" onClick={toggleMenu}>
         {menuOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
       </button>
 
-      {/* Navigation Links - Shows when menu is open */}
       <ul className={menuOpen || !isMobile ? "menu open" : "menu"}>
         <li><a href="/">Home</a></li>
         <li><a href="programs">Programs</a></li>
