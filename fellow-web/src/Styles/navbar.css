@@ -1,60 +1,90 @@
-.navbar{
-    background-color: rgb(123, 119, 119);
-    height:80px;
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(123, 119, 119);
+    padding: 15px;
+}
 .logo-container {
-    display: flex; 
-    align-items: center; 
-   
+    display: flex;
+    align-items: center;
 }
 
 .logo-container img {
     width: 40px;
     height: 30px;
-    margin-bottom:90px;
 }
 
-.fellowship-title {
+.left-side {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom:90px;
+    margin-left: 10px;
 }
 
-.left-side{
-    margin-left: 45px;
-    font-size:20px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    display:flex;
-    margin-bottom:90px;
-    align-items: center;
-    justify-content: flex;
+.left-side span {
+    color: rgb(118, 220, 118);
 }
-span{
-    color:rgb(118, 220, 118);
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
 }
-.right-side{
-    font-size:17px;
-    text-decoration:none;
-    padding:2.5px;
-    margin-bottom: 90px;
-    align-items: right;
-    justify-content: flex-end;
-    align-items: center;
-    display:flex;
-    text-transform: capitalize;
-margin-right:13px;
+
+.menu li {
+    display: inline-block;
 }
-.right-side a{
-text-decoration:none;
-color:black;
-padding: 10px;
-box-sizing: border-box;
-} 
-.right-side a:hover{
-    color:greenyellow;
+
+.menu a {
+    text-decoration: none;
+    color: rgb(49, 203, 49);
+    font-size: 17px;
+    padding: 10px;
 }
-.right-side a:active{
-    color:rgb(73, 84, 56);
+
+.menu a:hover {
+    color: greenyellow;
+}
+.menu-icon {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color:green;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background-color: white;
+        width: 200px;
+        padding: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu.open {
+        display: flex;
+    }
+
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .menu a {
+        color: black;
+    }
+
+    .menu-icon {
+        display: block;
+    }
 }

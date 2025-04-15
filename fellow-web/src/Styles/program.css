@@ -28,11 +28,18 @@
 .images{
     align-items: center;
     display:flex;
+
 }
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
 .images .src {
-    width:100rem;
-    height:14rem;
-    margin-top:30px;
-    padding: 0px;
-    margin:20px;
+    width: 100%; 
+    height: 14rem;
 }

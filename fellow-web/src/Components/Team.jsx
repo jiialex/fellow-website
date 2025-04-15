@@ -29,7 +29,12 @@ function Teams() {
               <li><a href="action" target="__blank">Action Team</a></li>
               <li><a href="prayer" target="__blank">Worship</a></li>
               <li><a href="natanims" target="__blank">Natanims</a></li>
-              <li><a href="ahava" target="__blank">Ahava</a></li>
+              <li><a href="ahava" target="__blank">Ahavah</a></li>
+              <li><a href="ahava" target="__blank">pure love</a></li>
+              <li><a href="ahava" target="__blank">prayers</a></li>
+              <li><a href="ahava" target="__blank">counciling</a></li>
+              <li><a href="ahava" target="__blank">new generation</a></li>
+
             </ul>
           </div>
         </div>

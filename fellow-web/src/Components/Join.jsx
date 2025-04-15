@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Styles/join.css'
 
+
 function Join() {
+    const [message, setMessage] = useState("Click the button!");
+  
+    const handleClick = () => {
+      setMessage("Button Clicked!");
+    }
   return (
     <div className='head'>
          <h1>join</h1>
@@ -19,7 +25,7 @@ function Join() {
         
         <label>Your previous experience</label>
         <textarea rows="10" cols="10" />
-        <button>Submit</button>
+        <button onClick={handleClick} >Submit</button>
       </div>       
     </div>
     </div>

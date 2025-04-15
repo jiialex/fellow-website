@@ -3,6 +3,10 @@ import '../Styles/program.css'
 import program from './images/program.png'
 import program1 from './images/program1.png'
 import programs from './images/programs.png'
+import evasue1 from './images/evasue1.png'
+import evasue2 from './images/evasue2.png'
+import evasue3 from './images/evasue3.png'
+
 
  function Programs() {
   return (
@@ -26,6 +30,11 @@ import programs from './images/programs.png'
             <img src={program} alt="" className="src"/>
             <img src={program1} alt="" className="src" />
             <img src={programs} alt="" className="src" />
+            <img src={evasue1} alt="" className="src" />
+            <img src={evasue2} alt="" className="src" />
+            <img src={evasue3} alt="" className="src" />
+
+    
         </div>
     </div>
     </div>
